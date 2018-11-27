@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>site concu avec des bootstrap</title>
+	<!-- importer fichier css de bootstrap 4-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" 
+	      media="screen and (max-width: 575px)" 
+	      type="text/css" href="Xsmall.css">
+	<link rel="stylesheet" 
+	      media="screen and (min-width: 576px) and (max-width: 769px)" 
+	      type="text/css" href="small.css">
+	<link rel="stylesheet" 
+	      media="screen and (min-width: 768px) and (max-width: 991px)" 
+	      type="text/css" href="medieum.css">
+	<link rel="stylesheet" 
+	      media="screen and (min-width: 992px) and (max-width: 1200px)" 
+	      type="text/css" href="large.css">
+    <link rel="stylesheet" 
+	      media="screen and (min-width: 1201px)" 
+	      type="text/css" href="Xlarge.css">
+
+</head>
+<body>
+ <div class="container-fluid">
+    <!--     header--> 	
+    <div class="row header">
+    	<div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
+    		<h1><span>Répertoire</span> des développeurs</h1>
+    	</div>
+    	<div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+    		<h3> <span>Trouver un développeur</span> Maintenant</h3>
+    	</div>
+    </div>
+ 
+<!--    bar de navigation horiz-->
+    <div class="row bg-primary">
+    	<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    		<nav class="navbar navbar-expand-sm navbar-light">
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarhorizon"  aria-expanded="false">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarhorizon">
+			    <div class="navbar-nav">
+			      <a class="nav-item nav-link" href="main.html">Acceuil</a>
+			      <a class="nav-item nav-link" href="developpeurs.html">Developpeurs</a>
+			      <a class="nav-item nav-link" href="aprops.html">A propos</a>
+			      <a class="nav-item nav-link" href="contact.html">Contacter-Nous</a>
+			    </div>
+			  </div>
+			</nav>
+    	</div>
+    </div>
+ 
+<!--  row qui contient nav vertical et contenu-->
+	 <div class="row bg-bluelike">
+	     <!--  nav vertical -->
+	  <div class="col-11 col-sm-11 col-md-11 col-lg-2 col-xl-2 nav_container">
+	    <h3>Les liens</h3>
+		<nav class="nav flex-column">
+		  <a class="nav-link active" href="main.html">SEO</a>
+		  <a class="nav-link" href="aprops.html">PHP</a>
+		  <a class="nav-link" href="developpeurs">Developpeurs</a>
+		  <a class="nav-link" href="contact.html">Contacter-Nous</a>
+		  <a class="nav-link" href="main.html">SEO</a>
+		  <a class="nav-link" href="aprops.html">PHP</a>
+		  <a class="nav-link" href="developpeurs.html">Developpeurs</a>
+		  <a class="nav-link" href="contact.html">Contacter-Nous</a>
+		</nav>
+	  </div>
+	  <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
+         <!-- contenu superieur-->	  	
+         <div class="row contenuSuperieur">
+         	<div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+         		<h3>Bienvenue dans notre site des developpeurs</h3>
+         		<h5>Qui sommes nous ?</h5>
+         		<p>Nous sommes un site web et service qui vous fournit des services de developpement à la demande</p>
+         		<h5>Quelles compétences nos développeurs possedent ?</h5>
+         		<p>Nos développeurs possedent pleusieurs compétences allant de design passant par le front end jusqu au big data</p>
+         	</div>
+         	<div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+         		<img src="web.jpg" class="img-fluid">
+         	</div>
+         </div>
+          <!-- contenu inferieur-->	  	
+         <div class="row contenuInferieur">
+         	<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+         		<h3>Les derniers développeurs parisiens</h3>
+         	</div>
+         	<div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+	         	  <h5>Adam Sullivan</h5>
+		      	  <ul>
+		      	  	<li><strong>Lieu:</strong>Paris, France</li>
+		      	  	<li><strong>Compétences:</strong>Html,CSS</li>
+		      	  	<li><strong>Disponibilité:</strong>ASP</li>
+		      	  </ul>
+	      	      <a href="#">voir son profile</a>
+         	</div>
+         	<div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+         		  <h5>Jordan B</h5>
+		      	  <ul>
+		      	  	<li><strong>Lieu:</strong>Bordeau, France</li>
+		      	  	<li><strong>Compétences:</strong>js,CSS</li>
+		      	  	<li><strong>Disponibilité:</strong>ASP</li>
+		      	  </ul>
+		      	  <a href="#">voir son profile</a>
+         	</div>
+         	<div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+         		  <h5>Cherchin C</h5>
+		      	  <ul>
+		      	  	<li><strong>Lieu:</strong>Lyon, France</li>
+		      	  	<li><strong>Compétences:</strong>PHP</li>
+		      	  	<li><strong>Disponibilité:</strong>ASP</li>
+		      	  </ul>
+		      	  <a href="#">voir son profile</a>
+         	</div>
+         	<div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+         		  <h5>Normal ah</h5>
+		      	  <ul>
+		      	  	<li><strong>Lieu:</strong>Paris, France</li>
+		      	  	<li><strong>Compétences:</strong>Html,CSS, js</li>
+		      	  	<li><strong>Disponibilité:</strong>ASP</li>
+		      	  </ul>
+		      	  <a href="#">voir son profile</a>
+         	</div>
+         </div>
+	  </div>
+	 	
+	 </div>
+
+
+<!-- footer-->
+<div class="row footer">
+	<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+		<p>Copyright 2018, le meilleur repertoir</p>
+	</div>
+</div>
+
+ </div>
+
+
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

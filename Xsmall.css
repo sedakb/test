@@ -1,0 +1,179 @@
+body{
+
+/*	background: black;
+*/	color:white;
+}
+
+
+.container-fluid {
+	display: flex;
+	flex-direction:column;
+}
+
+/* header */
+.header{
+	background: #00007F;
+	padding: 10px 0;
+	text-align: center;
+	order:2;
+}
+
+.header span {
+	color: #0000cc;
+}
+
+.header h1 {
+	font-size: 2.2rem;
+}
+.header h3 {
+	font-size: 1.4rem;
+}
+
+
+/*nav horizontal*/
+
+
+.navbar-light:first-of-type .navbar-nav .nav-link {
+	color: rgb(255, 255, 255);
+}
+
+.bg-primary {
+	order:1;
+}
+
+/*nav horizonatl*/
+
+.nav_container {
+	background: white;
+	padding: 10px;
+	margin:10px 0; 
+	border-radius: 10px;
+	color: black;
+	height: 100%;
+	order:2;
+}
+
+.nav_container a {
+	color: black;
+	padding-left:0px; 
+	border-bottom: 2px dotted black;
+}
+
+.nav_container h3 {
+	border-bottom: 2px solid black;
+}
+
+/* grande row*/
+
+.bg-bluelike{
+	background:#034d9c;
+	justify-content:center;
+	order:3;
+}
+
+.contenuSuperieur{
+	background: white;
+	color: black;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 15px;
+	border: 5px solid black;
+	align-items:center;
+}
+.contenuSuperieur h5 {
+	color: blue;
+}
+
+.contenuInferieur {
+	background: white;
+	color: black;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 15px;
+	border: 5px solid black;
+}
+
+
+.contenuInferieur ul {
+	list-style: none;
+	margin-bottom: 10px;
+	padding: 0;
+}
+
+.contenuInferieur li{
+	list-style: none;
+	line-height: 2em;
+}
+
+.contenuInferieur h3{
+	font-weight: bold;
+	margin: 10px 0px 20px 0;
+}
+
+.contenuInferieur h5{
+	color: blue;
+	margin-top: 20px;
+}
+/*footer*/
+
+.footer {
+	background:#034d9c;
+	order:4;
+}
+
+.footer .col-12 {
+	background: black;
+	color: white;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    height: 60px;
+
+}
+
+.footer p{
+	padding: 0px;
+	margin: 0px;
+
+}
+
+
+
+/* table - developpeur page*/
+
+
+#table {
+	background: white;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	border: 10px solid black;
+	color: black !important;
+}
+#table h3 {
+  margin: 20px 0px 0px 0px;
+  color: blue;
+}
+#table .table th, #table .table td{
+	border-top: none;
+	border-bottom: 2px dashed black;
+}
+.table {
+	width: auto;
+}
+
+/* contacter nous page*/
+
+#contact {
+	background: white;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	border: 10px solid black;
+	color: black !important;
+}
+
+
+#contact p label {
+	width: 20%;
+}
